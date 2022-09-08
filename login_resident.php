@@ -37,32 +37,6 @@
 </body>
 <script>
 
-var pass=document.getElementById("password");
-var mess=document.getElementById("message");
-var str=document.getElementById("str");
- pass.addEventListener("input",()=>{
-     if(pass.value.length>0){
-         mess.style.display="block";
-     }
-     else{
-         mess.style.display="none";
-     }
-     if(pass.value.length<4){
-         str.innerHTML="weak";
-         pass.style.borderColor="red";
-         mess.style.color="red";
-     }
-     else if
-       ((pass.value.length>4) &&( pass.value.length<8)){
-            str.innerHTML="medium";
-            pass.style.borderColor="yellow";
-            mess.style.color="yellow";
-        }
-        else if( pass.value.length>8){
-            str.innerHTML="strong";
-            pass.style.borderColor="green";
-            mess.style.color="green";
-        }
- }
+
 </script>
 </html>
